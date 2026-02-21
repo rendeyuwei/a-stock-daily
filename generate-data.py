@@ -13,8 +13,10 @@ from datetime import datetime, timedelta
 WORKSPACE = "/home/rende/.openclaw/workspace"
 TRADING_DIR = os.path.join(WORKSPACE, "trading")
 REPO_DIR = "/home/rende/a-stock-daily"
-DATA_DIR = os.path.join(REPO_DIR, "public", "data")
-OUTPUT_JSON = os.path.join(DATA_DIR, "stocks.json")
+PUBLIC_DATA_DIR = os.path.join(REPO_DIR, "public", "data")
+DIST_DATA_DIR = os.path.join(REPO_DIR, "dist", "data")
+OUTPUT_JSON_PUBLIC = os.path.join(PUBLIC_DATA_DIR, "stocks.json")
+OUTPUT_JSON_DIST = os.path.join(DIST_DATA_DIR, "stocks.json")
 
 
 def get_latest_file(pattern):
@@ -68,7 +70,8 @@ def main():
     stocks = parse_csv_stocks(stocks_file)
     
     # 创建数据目录
-    os.makedirs(DATA_DIR, exist_ok=True)
+    os.makedirs(PUBLIC_DATA_DIR, exist_ok=True)
+    os.makedirs(DIST_DATA_DIR, exist_ok=True)
     
     # 生成 JSON
     data = {
@@ -77,10 +80,15 @@ def main():
         'stocks': stocks
     }
     
-    with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
+    # 同时写入 public/data 和 dist/data
+    with open(OUTPUT_JSON_PUBLIC, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     
-    print(f"✅ 数据已生成：{OUTPUT_JSON}")
+    with open(OUTPUT_JSON_DIST, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    
+    print(f"✅ 数据已生成：{OUTPUT_JSON_PUBLIC}")
+    print(f"✅ 数据已生成：{OUTPUT_JSON_DIST}")
     print(f"📅 数据日期：{date_str}")
     print(f"📊 候选股票：{len(stocks)}只")
     
