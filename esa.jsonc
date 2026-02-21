@@ -1,6 +1,6 @@
 {
   "build": {
-    "command": "npm install && npm run build"
+    "command": "python3 generate-data.py && npm install && npm run build"
   },
   "assets": {
     "directory": "./dist"
