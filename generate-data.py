@@ -28,7 +28,7 @@ def get_latest_file(pattern):
 
 
 def parse_csv_stocks(filepath):
-    """解析候选股票 CSV"""
+    """解析候选股票 CSV - 新版格式"""
     stocks = []
     if not filepath or not os.path.exists(filepath):
         return stocks
@@ -38,16 +38,44 @@ def parse_csv_stocks(filepath):
         if len(lines) < 2:
             return stocks
         
+        # 新版 CSV 列：code,name,price,change_pct,volume_ratio,market_cap,roe,pe_ttm,pe_static,pb,pe_status,turnover_rate,ma20,ma60,ma20_prev,ma20_trend,macd,tech_status
         for line in lines[1:]:
             parts = line.strip().split(',')
-            if len(parts) >= 6:
+            if len(parts) >= 17:
+                code = parts[0]
+                name = parts[1]
+                price = parts[2]
+                change_pct = parts[3]
+                volume_ratio = parts[4]
+                roe = parts[6]
+                ma20_trend = parts[15]
+                macd = parts[16]
+                tech_status = parts[17] if len(parts) > 17 else ""
+                
+                # 生成入选理由
+                reasons = []
+                if float(roe) > 30:
+                    reasons.append(f"ROE {roe}%")
+                elif float(roe) > 20:
+                    reasons.append(f"ROE {roe}%")
+                if ma20_trend == "向上":
+                    reasons.append("均线多头")
+                if float(macd) > 0.5:
+                    reasons.append("MACD 强势")
+                elif float(macd) > 0:
+                    reasons.append("MACD 金叉")
+                if float(volume_ratio) > 3:
+                    reasons.append(f"放量{volume_ratio}倍")
+                
+                reason = " | ".join(reasons) if reasons else tech_status
+                
                 stocks.append({
-                    'code': parts[0],
-                    'name': parts[1],
-                    'price': parts[2],
-                    'change': parts[3],
-                    'volume': parts[4],
-                    'reason': parts[5] if len(parts) > 5 else ""
+                    'code': code,
+                    'name': name,
+                    'price': price,
+                    'change': change_pct,
+                    'volume': volume_ratio,
+                    'reason': reason
                 })
     return stocks
 
