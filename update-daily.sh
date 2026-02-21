@@ -10,12 +10,17 @@ DATE=$(date +%Y-%m-%d)
 
 echo "📅 生成每日报告：$DATE"
 
-# 1. 生成数据 JSON
 cd "$REPO_DIR"
+
+# 1. 生成数据 JSON
 python3 generate-data.py
 
-# 2. 提交并推送
-git add public/data/stocks.json
+# 2. 重新构建 Astro 项目
+echo "🔨 构建静态站点..."
+npm run build
+
+# 3. 提交并推送
+git add -A
 git commit -m "daily: $DATE" || echo "No changes to commit"
 git push
 
