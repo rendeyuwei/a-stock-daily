@@ -26,8 +26,5 @@ pnpm-debug.log*
 *.sln
 *.sw?
 
-# Data (generated locally)
-public/data/stocks.json
-
 # Build output
 dist/
