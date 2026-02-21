@@ -28,3 +28,6 @@ pnpm-debug.log*
 
 # Data (generated locally)
 public/data/stocks.json
+
+# Build output
+dist/
