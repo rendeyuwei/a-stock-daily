@@ -1,4 +1,7 @@
 {
+  "build": {
+    "command": "npm install && npm run build"
+  },
   "assets": {
     "directory": "./dist"
   },
