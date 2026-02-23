@@ -44,6 +44,97 @@ import '../styles/globals.css';
                     </div>
                 </div>
             </section>
+
+            <!-- 人工核实指南 -->
+            <section class="mb-8">
+                <h2 class="text-xl md:text-2xl font-bold text-slate-800 border-l-4 border-amber-500 pl-4 mb-4">🔍 人工核实指南（开盘前必做）</h2>
+                
+                <!-- PE 判断 -->
+                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border-2 border-blue-200 rounded-xl p-5 mb-4">
+                    <h3 class="font-bold text-blue-900 mb-3 flex items-center">
+                        <span class="text-2xl mr-2">📊</span>
+                        1. PE 估值判断（同花顺/东方财富查看）
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-4 gap-3 mb-3">
+                        <div class="bg-green-100 border-l-4 border-green-500 p-3 rounded">
+                            <div class="text-green-800 font-bold text-lg">PE &lt; 20</div>
+                            <div class="text-green-700 text-sm mt-1">✅ 低估</div>
+                            <div class="text-green-600 text-xs mt-1">重点关注</div>
+                        </div>
+                        <div class="bg-blue-100 border-l-4 border-blue-500 p-3 rounded">
+                            <div class="text-blue-800 font-bold text-lg">PE 20-50</div>
+                            <div class="text-blue-700 text-sm mt-1">⭕ 合理</div>
+                            <div class="text-blue-600 text-xs mt-1">可以接受</div>
+                        </div>
+                        <div class="bg-yellow-100 border-l-4 border-yellow-500 p-3 rounded">
+                            <div class="text-yellow-800 font-bold text-lg">PE &gt; 50</div>
+                            <div class="text-yellow-700 text-sm mt-1">🔴 高估</div>
+                            <div class="text-yellow-600 text-xs mt-1">谨慎或排除</div>
+                        </div>
+                        <div class="bg-red-100 border-l-4 border-red-500 p-3 rounded">
+                            <div class="text-red-800 font-bold text-lg">PE ≤ 0</div>
+                            <div class="text-red-700 text-sm mt-1">⚠️ 亏损</div>
+                            <div class="text-red-600 text-xs mt-1">直接排除</div>
+                        </div>
+                    </div>
+                    <div class="bg-white/70 rounded-lg p-3 text-sm text-blue-800">
+                        <strong>📝 操作步骤：</strong>打开同花顺 App → 输入股票代码 → F10 财务分析 → 查看市盈率 (TTM) → 对照上表判断
+                    </div>
+                </div>
+
+                <!-- 催化剂判断 -->
+                <div class="bg-gradient-to-r from-red-50 to-pink-50 border-2 border-red-200 rounded-xl p-5 mb-4">
+                    <h3 class="font-bold text-red-900 mb-3 flex items-center">
+                        <span class="text-2xl mr-2">🔥</span>
+                        2. 催化剂查询（公告/政策）
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
+                        <div class="bg-white/80 rounded-lg p-3">
+                            <div class="font-bold text-red-800 mb-2">📈 强催化剂（+3 分）</div>
+                            <ul class="text-sm text-red-700 space-y-1">
+                                <li>• 业绩预增公告（超预期）</li>
+                                <li>• 重大合同/订单公告</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white/80 rounded-lg p-3">
+                            <div class="font-bold text-red-800 mb-2">💰 中等催化剂（+2 分）</div>
+                            <ul class="text-sm text-red-700 space-y-1">
+                                <li>• 股东增持/回购公告</li>
+                                <li>• 行业政策利好</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bg-white/70 rounded-lg p-3 text-sm text-red-800">
+                        <strong>📝 操作步骤：</strong>巨潮资讯网 http://www.cninfo.com.cn → 输入股票代码 → 查看最新公告 → 如果有利好，记录代码和内容
+                    </div>
+                </div>
+
+                <!-- 排除规则 -->
+                <div class="bg-gradient-to-r from-red-50 to-orange-50 border-2 border-red-300 rounded-xl p-5">
+                    <h3 class="font-bold text-red-900 mb-3 flex items-center">
+                        <span class="text-2xl mr-2">❌</span>
+                        3. 直接排除规则（满足任一即排除）
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+                        <div class="flex items-start">
+                            <span class="text-red-500 mr-2 font-bold">•</span>
+                            <span class="text-red-800 text-sm">PE ≤ 0（亏损股）</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-red-500 mr-2 font-bold">•</span>
+                            <span class="text-red-800 text-sm">PE &gt; 50（高估股）</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-red-500 mr-2 font-bold">•</span>
+                            <span class="text-red-800 text-sm">ST 股或退市风险</span>
+                        </div>
+                        <div class="flex items-start">
+                            <span class="text-red-500 mr-2 font-bold">•</span>
+                            <span class="text-red-800 text-sm">大股东大幅减持</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
             
             <!-- 候选股票 -->
             <section>
@@ -55,6 +146,28 @@ import '../styles/globals.css';
             </section>
         </main>
         
+        <!-- 快速导航 -->
+        <section class="mb-8">
+            <h2 class="text-xl md:text-2xl font-bold text-slate-800 border-l-4 border-primary pl-4 mb-4">🚀 快速导航</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <a href="/buy-plan" class="bg-gradient-to-br from-green-100 to-green-50 border-2 border-green-200 rounded-xl p-4 text-center hover:shadow-lg transition-all hover:scale-105">
+                    <div class="text-3xl mb-2">🎯</div>
+                    <div class="font-bold text-green-800">买入计划</div>
+                    <div class="text-xs text-green-600 mt-1">精确买入价 + 仓位</div>
+                </a>
+                <a href="/catalyst" class="bg-gradient-to-br from-red-100 to-red-50 border-2 border-red-200 rounded-xl p-4 text-center hover:shadow-lg transition-all hover:scale-105">
+                    <div class="text-3xl mb-2">🔥</div>
+                    <div class="font-bold text-red-800">催化剂</div>
+                    <div class="text-xs text-red-600 mt-1">公告/政策/调研</div>
+                </a>
+                <a href="https://docs.openclaw.ai" target="_blank" class="bg-gradient-to-br from-blue-100 to-blue-50 border-2 border-blue-200 rounded-xl p-4 text-center hover:shadow-lg transition-all hover:scale-105">
+                    <div class="text-3xl mb-2">📚</div>
+                    <div class="font-bold text-blue-800">交易策略</div>
+                    <div class="text-xs text-blue-600 mt-1">完整文档说明</div>
+                </a>
+            </div>
+        </section>
+
         <!-- Footer -->
         <footer class="bg-slate-50 border-t border-slate-200 text-center p-6 text-slate-500 text-xs">
             <p class="mb-1">自动生成 by 小豆 · 仅供研究参考，不构成投资建议</p>
