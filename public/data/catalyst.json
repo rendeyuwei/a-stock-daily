@@ -1,37 +1,23 @@
 {
-  "updateTime": "2026-02-23 00:21",
+  "updateTime": "2026-02-23 14:15",
   "stocks": [
     {
       "code": "301356",
       "name": "天振股份",
-      "score": 3,
-      "level": "中",
-      "count": 1,
-      "summary": "人工录入: 业绩预增 +50%",
-      "catalysts": [
-        {
-          "type": "人工录入",
-          "details": "业绩预增 +50%",
-          "score": 3,
-          "date": "2026-02-23"
-        }
-      ]
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
     },
     {
       "code": "603088",
       "name": "宁波精达",
-      "score": 3,
-      "level": "中",
-      "count": 1,
-      "summary": "人工录入: 重大合同订单",
-      "catalysts": [
-        {
-          "type": "人工录入",
-          "details": "重大合同订单",
-          "score": 3,
-          "date": "2026-02-23"
-        }
-      ]
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
     },
     {
       "code": "688533",

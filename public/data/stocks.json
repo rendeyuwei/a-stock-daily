@@ -1,102 +1,14 @@
 {
-  "date": "2026-02-23",
-  "count": 12,
+  "date": "2026-02-24",
+  "count": 1,
   "stocks": [
     {
-      "code": "301356",
-      "name": "天振股份",
-      "price": "24.6",
-      "change": "7.38",
-      "volume": "5.65",
-      "reason": "ROE 40.35% | 均线多头 | MACD 金叉 | 放量5.65倍"
-    },
-    {
-      "code": "603088",
-      "name": "宁波精达",
-      "price": "13.01",
-      "change": "1.96",
-      "volume": "4.43",
-      "reason": "ROE 97.28% | 均线多头 | MACD 金叉 | 放量4.43倍"
-    },
-    {
-      "code": "688533",
-      "name": "上声电子",
-      "price": "34.15",
-      "change": "7.19",
-      "volume": "3.96",
-      "reason": "ROE 57.79% | 均线多头 | MACD 强势 | 放量3.96倍"
-    },
-    {
-      "code": "002520",
-      "name": "日发精机",
-      "price": "6.72",
-      "change": "0.15",
-      "volume": "3.88",
-      "reason": "ROE 42.09% | 均线多头 | MACD 金叉 | 放量3.88倍"
-    },
-    {
-      "code": "002942",
-      "name": "新农股份",
-      "price": "21.87",
-      "change": "0.78",
-      "volume": "3.49",
-      "reason": "ROE 31.58% | 均线多头 | MACD 金叉 | 放量3.49倍"
-    },
-    {
-      "code": "688563",
-      "name": "航材股份",
-      "price": "76.3",
-      "change": "7.92",
-      "volume": "3.48",
-      "reason": "ROE 78.88% | 均线多头 | MACD 强势 | 放量3.48倍"
-    },
-    {
-      "code": "688001",
-      "name": "华兴源创",
-      "price": "35.06",
-      "change": "5.76",
-      "volume": "3.4",
-      "reason": "ROE 30.94% | 均线多头 | MACD 强势 | 放量3.4倍"
-    },
-    {
-      "code": "002933",
-      "name": "新兴装备",
-      "price": "37.13",
-      "change": "4.15",
-      "volume": "3.27",
-      "reason": "均线多头 | MACD 金叉 | 放量3.27倍"
-    },
-    {
-      "code": "002248",
-      "name": "华东数控",
-      "price": "14.02",
-      "change": "0.07",
-      "volume": "3.02",
-      "reason": "均线多头 | MACD 金叉 | 放量3.02倍"
-    },
-    {
-      "code": "300107",
-      "name": "建新股份",
-      "price": "9.21",
-      "change": "6.11",
-      "volume": "2.76",
-      "reason": "均线多头 | MACD 金叉"
-    },
-    {
-      "code": "603090",
-      "name": "宏盛股份",
-      "price": "82.9",
-      "change": "7.63",
-      "volume": "2.74",
-      "reason": "ROE 33.42% | 均线多头 | MACD 强势"
-    },
-    {
-      "code": "300369",
-      "name": "绿盟科技",
-      "price": "10.86",
-      "change": "9.48",
-      "volume": "2.71",
-      "reason": "ROE 55.5% | 均线多头 | MACD 强势"
+      "code": "920808",
+      "name": "曙光数创",
+      "price": "",
+      "change": "",
+      "volume": "",
+      "reason": "ROE 57.88% | 均线多头 | MACD 强势"
     }
   ]
 }

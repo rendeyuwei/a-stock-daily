@@ -27,6 +27,16 @@ def get_latest_file(pattern):
     return max(files, key=os.path.getctime)
 
 
+def safe_float(value, default=0.0):
+    """安全转换浮点数，处理空值"""
+    if not value or value.strip() == '':
+        return default
+    try:
+        return float(value)
+    except (ValueError, TypeError):
+        return default
+
+
 def parse_csv_stocks(filepath):
     """解析候选股票 CSV - 新版格式"""
     stocks = []
@@ -52,19 +62,24 @@ def parse_csv_stocks(filepath):
                 macd = parts[16]
                 tech_status = parts[17] if len(parts) > 17 else ""
                 
+                # 安全转换数值
+                roe_val = safe_float(roe)
+                macd_val = safe_float(macd)
+                volume_ratio_val = safe_float(volume_ratio)
+                
                 # 生成入选理由
                 reasons = []
-                if float(roe) > 30:
+                if roe_val > 30:
                     reasons.append(f"ROE {roe}%")
-                elif float(roe) > 20:
+                elif roe_val > 20:
                     reasons.append(f"ROE {roe}%")
                 if ma20_trend == "向上":
                     reasons.append("均线多头")
-                if float(macd) > 0.5:
+                if macd_val > 0.5:
                     reasons.append("MACD 强势")
-                elif float(macd) > 0:
+                elif macd_val > 0:
                     reasons.append("MACD 金叉")
-                if float(volume_ratio) > 3:
+                if volume_ratio_val > 3:
                     reasons.append(f"放量{volume_ratio}倍")
                 
                 reason = " | ".join(reasons) if reasons else tech_status
