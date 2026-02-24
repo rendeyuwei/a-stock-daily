@@ -1,26 +1,9 @@
 {
-  "updateTime": "2026-02-23 14:15",
+  "updateTime": "2026-02-24 14:15",
   "marketStatus": "震荡整理",
   "positionAdvice": "4-5 成",
   "account": 100000,
   "riskPercent": 1,
-  "stocks": [
-    {
-      "code": "301356",
-      "name": "天振股份",
-      "currentPrice": 24.6,
-      "buyType": "突破买入",
-      "buyPrice": 24.65,
-      "buyRange": "24.60 ~ 24.72",
-      "stopLoss": 23.17,
-      "stopDistance": 6.0,
-      "shares": 676,
-      "value": 16666.67,
-      "positionPercent": 16.7,
-      "catalystScore": 0,
-      "recommendation": "⚪ 一般",
-      "warning": ""
-    }
-  ],
-  "count": 1
+  "stocks": [],
+  "count": 0
 }
