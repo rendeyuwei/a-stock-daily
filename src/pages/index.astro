@@ -250,7 +250,8 @@ import '../styles/globals.css';
             `;
             
             stocks.forEach((stock, index) => {
-                const isUp = !stock.change.includes('-');
+                const changeStr = String(stock.change);
+                const isUp = !changeStr.includes('-');
                 const changeClass = isUp ? 'text-up bg-up' : 'text-down bg-down';
                 const sign = isUp ? '+' : '';
                 const rowHover = index % 2 === 0 ? 'hover:bg-amber-50' : 'hover:bg-amber-50';
