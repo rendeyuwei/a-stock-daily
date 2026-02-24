@@ -96,7 +96,7 @@ def parse_csv_stocks(filepath, v2_filter=False):
                     'code': code,
                     'name': name,
                     'price': price,
-                    'change': change_pct,
+                    'change': str(change_pct),  # 转为字符串，避免前端类型错误
                     'volume': volume_ratio,
                     'reason': reason
                 })
