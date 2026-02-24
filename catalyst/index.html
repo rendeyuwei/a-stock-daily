@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>催化剂查询 - A 股交易日报</title><link rel="stylesheet" href="/_astro/buy-plan.CuWOJji-.css"><script type="module">async function l(){try{const e=new Date().getTime(),a=await(await fetch(`/data/catalyst.json?t=${e}`,{cache:"no-cache"})).json();d(a)}catch(e){console.error("加载失败:",e),document.getElementById("no-data").classList.remove("hidden")}}function d(e){document.getElementById("update-time").textContent=e.updateTime;const s=document.getElementById("stock-list");if(e.count===0){document.getElementById("no-data").classList.remove("hidden");return}e.stocks.forEach(a=>{const n=r(a);s.appendChild(n)})}function r(e){const s=document.createElement("div");s.className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow";const a=e.score>=6?"text-red-600":e.score>=3?"text-green-600":"text-gray-600",n=e.level==="强"?"bg-red-100 text-red-800":e.level==="中"?"bg-green-100 text-green-800":"bg-gray-100 text-gray-800";return s.innerHTML=`
+                <div class="p-6">
+                    <!-- 标题 -->
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900">${e.code} ${e.name}</h3>
+                        </div>
+                        <span class="px-3 py-1 rounded-full text-sm font-medium ${n}">
+                            ${e.level}
+                        </span>
+                    </div>
+
+                    <!-- 评分 -->
+                    <div class="mb-4">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-gray-600 text-sm">催化剂评分</span>
+                            <span class="text-2xl font-bold ${a}">${e.score}分</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-green-500 to-red-500 h-2 rounded-full" style="width: ${Math.min(e.score*10,100)}%"></div>
+                        </div>
+                    </div>
+
+                    <!-- 摘要 -->
+                    <div class="mb-4">
+                        <p class="text-gray-700 font-medium">${e.summary}</p>
+                    </div>
+
+                    <!-- 催化剂详情 -->
+                    ${e.catalysts&&e.catalysts.length>0?`
+                        <div class="border-t pt-3">
+                            <h4 class="text-sm font-bold text-gray-700 mb-2">详细催化剂：</h4>
+                            <ul class="space-y-2">
+                                ${e.catalysts.map(t=>`
+                                    <li class="flex items-start text-sm">
+                                        <span class="mr-2">${t.type==="业绩预增"?"📈":t.type==="重大合同"?"📋":t.type==="股东增持"?"💰":t.type==="政策利好"?"📢":"🔍"}</span>
+                                        <span class="text-gray-600">${t.type}${t.details?"："+t.details:""}</span>
+                                    </li>
+                                `).join("")}
+                            </ul>
+                        </div>
+                    `:`
+                        <div class="border-t pt-3">
+                            <p class="text-sm text-gray-500 text-center py-2">
+                                ⏳ 数据源接入中，暂显示候选股票列表
+                            </p>
+                        </div>
+                    `}
+                </div>
+
+                <!-- 底部说明 -->
+                <div class="bg-gray-50 px-6 py-3">
+                    <p class="text-xs text-gray-500">
+                        📊 催化剂强度：${e.score>=6?"强推荐":e.score>=3?"可关注":"一般"}
+                    </p>
+                </div>
+            `,s}l();setInterval(l,5*60*1e3);
+</script></head> <body class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-6"> <div class="max-w-7xl mx-auto"> <!-- 返回导航 --> <div class="mb-6"> <a href="/" class="inline-flex items-center text-blue-600 hover:text-blue-800"> <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path> </svg>
+返回首页
+</a> </div> <!-- 页面标题 --> <div class="text-center mb-8"> <h1 class="text-4xl font-bold text-gray-900 mb-2">🔥 催化剂查询</h1> <p class="text-gray-600">公告、政策、机构调研等利好信息</p> <p class="text-sm text-gray-500 mt-2">最后更新：<span id="update-time">-</span></p> </div> <!-- 说明卡片 --> <div class="bg-blue-50 border-l-4 border-blue-400 p-4 mb-8"> <h3 class="font-bold text-blue-800 mb-2">📌 催化剂评分标准</h3> <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm text-blue-700"> <div>📈 业绩预增：+3 分</div> <div>📋 重大合同：+3 分</div> <div>💰 股东增持：+2 分</div> <div>📢 政策利好：+2 分</div> <div>🔍 机构调研：+1 分</div> <div><strong>≥6 分：强催化剂 | ≥3 分：中等 | &lt;3 分：弱</strong></div> </div> </div> <!-- 股票列表 --> <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="stock-list"> <!-- 动态加载 --> </div> <!-- 无数据提示 --> <div id="no-data" class="hidden text-center py-12 bg-white rounded-xl shadow"> <p class="text-gray-500 text-lg">📭 暂无催化剂数据</p> <p class="text-gray-400 text-sm mt-2">数据源正在接入中，目前显示候选股票列表</p> </div> </div>  </body> </html>

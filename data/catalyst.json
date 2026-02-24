@@ -1,0 +1,96 @@
+{
+  "updateTime": "2026-02-23 14:15",
+  "stocks": [
+    {
+      "code": "301356",
+      "name": "天振股份",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "603088",
+      "name": "宁波精达",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "688533",
+      "name": "上声电子",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "002520",
+      "name": "日发精机",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "002942",
+      "name": "新农股份",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "688563",
+      "name": "航材股份",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "688001",
+      "name": "华兴源创",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "002933",
+      "name": "新兴装备",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "002248",
+      "name": "华东数控",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "300107",
+      "name": "建新股份",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    }
+  ],
+  "count": 10
+}
