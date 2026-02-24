@@ -57,7 +57,11 @@ import '../styles/globals.css';
         // 获取数据
         async function loadData() {
             try {
-                const response = await fetch('/data/catalyst.json');
+                // 添加时间戳参数绕过 CDN 缓存
+                const timestamp = new Date().getTime();
+                const response = await fetch(`/data/catalyst.json?t=${timestamp}`, {
+                    cache: 'no-cache'
+                });
                 const data = await response.json();
                 render(data);
             } catch (error) {

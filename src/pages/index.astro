@@ -181,7 +181,11 @@ import '../styles/globals.css';
         
         async function loadStockData() {
             try {
-                const response = await fetch('/data/stocks.json');
+                // 添加时间戳参数绕过 CDN 缓存
+                const timestamp = new Date().getTime();
+                const response = await fetch(`/data/stocks.json?t=${timestamp}`, {
+                    cache: 'no-cache'
+                });
                 const data = await response.json();
                 renderStocks(data);
             } catch (error) {
