@@ -1,9 +1,9 @@
 {
-  "updateTime": "2026-02-24 14:15",
+  "updateTime": "2026-02-26 14:15",
   "stocks": [
     {
-      "code": "601890",
-      "name": "yaxingmaolian",
+      "code": "002506.SZ",
+      "name": "4.88",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -11,8 +11,8 @@
       "catalysts": []
     },
     {
-      "code": "301356",
-      "name": "tianzhengufen",
+      "code": "601390.SH",
+      "name": "6.19",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -20,8 +20,8 @@
       "catalysts": []
     },
     {
-      "code": "002942",
-      "name": "xinnonggufen",
+      "code": "002131.SZ",
+      "name": "9.34",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -29,8 +29,8 @@
       "catalysts": []
     },
     {
-      "code": "600410",
-      "name": "huashengtiancheng",
+      "code": "000981.SZ",
+      "name": "4.93",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -38,8 +38,53 @@
       "catalysts": []
     },
     {
-      "code": "603400",
-      "name": "huazhijie",
+      "code": "600871.SH",
+      "name": "3.34",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "601868.SH",
+      "name": "2.49",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "601975.SH",
+      "name": "4.07",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "002195.SZ",
+      "name": "10.57",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "000630.SZ",
+      "name": "7.73",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "601618.SH",
+      "name": "3.14",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -47,5 +92,5 @@
       "catalysts": []
     }
   ],
-  "count": 5
+  "count": 10
 }
