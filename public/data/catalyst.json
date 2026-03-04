@@ -1,5 +1,96 @@
 {
-  "updateTime": "2026-03-02 14:15",
-  "stocks": [],
-  "count": 0
+  "updateTime": "2026-03-04 14:15",
+  "stocks": [
+    {
+      "code": "",
+      "name": "",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "",
+      "name": "",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "",
+      "name": "",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "",
+      "name": "",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "",
+      "name": "",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "",
+      "name": "",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "",
+      "name": "",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "",
+      "name": "",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "",
+      "name": "",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "",
+      "name": "",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    }
+  ],
+  "count": 10
 }
