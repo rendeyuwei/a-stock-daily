@@ -1,5 +1,96 @@
 {
-  "updateTime": "2026-03-06 14:15",
-  "stocks": [],
-  "count": 0
+  "updateTime": "2026-03-10 14:15",
+  "stocks": [
+    {
+      "code": "000001.SZ",
+      "name": "平安银行",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "000002.SZ",
+      "name": "万科Ａ",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "000006.SZ",
+      "name": "深振业Ａ",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "000007.SZ",
+      "name": "全新好",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "000008.SZ",
+      "name": "神州高铁",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "000009.SZ",
+      "name": "中国宝安",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "000010.SZ",
+      "name": "美丽生态",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "000011.SZ",
+      "name": "深物业A",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "000012.SZ",
+      "name": "南玻Ａ",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "000014.SZ",
+      "name": "沙河股份",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    }
+  ],
+  "count": 10
 }
