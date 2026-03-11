@@ -1,9 +1,42 @@
 {
-  "updateTime": "2026-03-10 14:15",
+  "updateTime": "2026-03-11 14:15",
   "marketStatus": "震荡整理",
   "positionAdvice": "4-5 成",
   "account": 100000,
   "riskPercent": 1,
-  "stocks": [],
-  "count": 0
+  "stocks": [
+    {
+      "code": "002229",
+      "name": "鸿博股份",
+      "currentPrice": 18.28,
+      "buyType": "突破买入",
+      "buyPrice": 18.32,
+      "buyRange": "18.28 ~ 18.37",
+      "stopLoss": 17.22,
+      "stopDistance": 6.0,
+      "shares": 909,
+      "value": 16666.67,
+      "positionPercent": 16.7,
+      "catalystScore": 0,
+      "recommendation": "⚪ 一般",
+      "warning": "⚠️ 换手率过高（25.5%），警惕出货"
+    },
+    {
+      "code": "002635",
+      "name": "安洁科技",
+      "currentPrice": 15.39,
+      "buyType": "突破买入",
+      "buyPrice": 15.42,
+      "buyRange": "15.39 ~ 15.47",
+      "stopLoss": 14.5,
+      "stopDistance": 6.0,
+      "shares": 1080,
+      "value": 16666.67,
+      "positionPercent": 16.7,
+      "catalystScore": 0,
+      "recommendation": "⚪ 一般",
+      "warning": ""
+    }
+  ],
+  "count": 2
 }

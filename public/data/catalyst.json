@@ -1,9 +1,9 @@
 {
-  "updateTime": "2026-03-10 14:15",
+  "updateTime": "2026-03-11 14:15",
   "stocks": [
     {
-      "code": "000001.SZ",
-      "name": "平安银行",
+      "code": "301042",
+      "name": "安联锐视",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -11,8 +11,8 @@
       "catalysts": []
     },
     {
-      "code": "000002.SZ",
-      "name": "万科Ａ",
+      "code": "002229",
+      "name": "鸿博股份",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -20,8 +20,8 @@
       "catalysts": []
     },
     {
-      "code": "000006.SZ",
-      "name": "深振业Ａ",
+      "code": "002730",
+      "name": "电光科技",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -29,8 +29,8 @@
       "catalysts": []
     },
     {
-      "code": "000007.SZ",
-      "name": "全新好",
+      "code": "688601",
+      "name": "力芯微",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -38,8 +38,8 @@
       "catalysts": []
     },
     {
-      "code": "000008.SZ",
-      "name": "神州高铁",
+      "code": "300352",
+      "name": "北信源",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -47,8 +47,8 @@
       "catalysts": []
     },
     {
-      "code": "000009.SZ",
-      "name": "中国宝安",
+      "code": "601567",
+      "name": "三星医疗",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -56,8 +56,8 @@
       "catalysts": []
     },
     {
-      "code": "000010.SZ",
-      "name": "美丽生态",
+      "code": "301012",
+      "name": "扬电科技",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -65,8 +65,8 @@
       "catalysts": []
     },
     {
-      "code": "000011.SZ",
-      "name": "深物业A",
+      "code": "002480",
+      "name": "新筑股份",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -74,8 +74,8 @@
       "catalysts": []
     },
     {
-      "code": "000012.SZ",
-      "name": "南玻Ａ",
+      "code": "002635",
+      "name": "安洁科技",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -83,8 +83,8 @@
       "catalysts": []
     },
     {
-      "code": "000014.SZ",
-      "name": "沙河股份",
+      "code": "001314",
+      "name": "亿道信息",
       "score": 0,
       "level": "弱",
       "count": 0,
