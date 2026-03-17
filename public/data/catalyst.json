@@ -1,9 +1,9 @@
 {
-  "updateTime": "2026-03-11 14:15",
+  "updateTime": "2026-03-17 14:15",
   "stocks": [
     {
-      "code": "301042",
-      "name": "安联锐视",
+      "code": "605268",
+      "name": "王力安防",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -11,8 +11,8 @@
       "catalysts": []
     },
     {
-      "code": "002229",
-      "name": "鸿博股份",
+      "code": "002729",
+      "name": "好利科技",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -20,8 +20,8 @@
       "catalysts": []
     },
     {
-      "code": "002730",
-      "name": "电光科技",
+      "code": "603017",
+      "name": "中衡设计",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -29,8 +29,8 @@
       "catalysts": []
     },
     {
-      "code": "688601",
-      "name": "力芯微",
+      "code": "002632",
+      "name": "道明光学",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -38,8 +38,8 @@
       "catalysts": []
     },
     {
-      "code": "300352",
-      "name": "北信源",
+      "code": "002575",
+      "name": "群兴玩具",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -47,8 +47,8 @@
       "catalysts": []
     },
     {
-      "code": "601567",
-      "name": "三星医疗",
+      "code": "002256",
+      "name": "兆新股份",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -56,35 +56,8 @@
       "catalysts": []
     },
     {
-      "code": "301012",
-      "name": "扬电科技",
-      "score": 0,
-      "level": "弱",
-      "count": 0,
-      "summary": "弱 (0分，0条催化剂)",
-      "catalysts": []
-    },
-    {
-      "code": "002480",
-      "name": "新筑股份",
-      "score": 0,
-      "level": "弱",
-      "count": 0,
-      "summary": "弱 (0分，0条催化剂)",
-      "catalysts": []
-    },
-    {
-      "code": "002635",
-      "name": "安洁科技",
-      "score": 0,
-      "level": "弱",
-      "count": 0,
-      "summary": "弱 (0分，0条催化剂)",
-      "catalysts": []
-    },
-    {
-      "code": "001314",
-      "name": "亿道信息",
+      "code": "301606",
+      "name": "绿联科技",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -92,5 +65,5 @@
       "catalysts": []
     }
   ],
-  "count": 10
+  "count": 7
 }
