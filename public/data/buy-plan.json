@@ -1,42 +1,9 @@
 {
-  "updateTime": "2026-03-17 14:15",
+  "updateTime": "2026-03-26 14:15",
   "marketStatus": "震荡整理",
   "positionAdvice": "4-5 成",
   "account": 100000,
   "riskPercent": 1,
-  "stocks": [
-    {
-      "code": "002729",
-      "name": "好利科技",
-      "currentPrice": 19.66,
-      "buyType": "突破买入",
-      "buyPrice": 19.7,
-      "buyRange": "19.66 ~ 19.76",
-      "stopLoss": 18.63,
-      "stopDistance": 5.42,
-      "shares": 936,
-      "value": 18439.53,
-      "positionPercent": 18.4,
-      "catalystScore": 0,
-      "recommendation": "⚪ 一般",
-      "warning": "⚠️ 换手率过高（15.6%），警惕出货"
-    },
-    {
-      "code": "603017",
-      "name": "中衡设计",
-      "currentPrice": 13.38,
-      "buyType": "突破买入",
-      "buyPrice": 13.41,
-      "buyRange": "13.38 ~ 13.45",
-      "stopLoss": 12.64,
-      "stopDistance": 5.68,
-      "shares": 1312,
-      "value": 17599.72,
-      "positionPercent": 17.6,
-      "catalystScore": 0,
-      "recommendation": "⚪ 一般",
-      "warning": ""
-    }
-  ],
-  "count": 2
+  "stocks": [],
+  "count": 0
 }

@@ -1,6 +1,39 @@
 {
-  "date": "2026-03-17",
-  "count": 0,
-  "stocks": [],
+  "date": "2026-03-26",
+  "count": 4,
+  "stocks": [
+    {
+      "code": "002479",
+      "name": "富春环保",
+      "price": "5.99",
+      "change": "1.18",
+      "volume": "5.18",
+      "reason": "ROE 24.15% | 均线多头 | MACD 金叉 | 放量5.18倍"
+    },
+    {
+      "code": "603958",
+      "name": "哈森股份",
+      "price": "20.89",
+      "change": "0.48",
+      "volume": "1.98",
+      "reason": "ROE 48.87% | 均线多头 | MACD 金叉"
+    },
+    {
+      "code": "001256",
+      "name": "炜冈科技",
+      "price": "26.41",
+      "change": "0.42",
+      "volume": "1.61",
+      "reason": "ROE 23.47% | 均线多头 | MACD 强势"
+    },
+    {
+      "code": "300035",
+      "name": "中科电气",
+      "price": "23.09",
+      "change": "0.3",
+      "volume": "1.32",
+      "reason": "ROE 58.91% | 均线多头 | MACD 金叉"
+    }
+  ],
   "version": "V1.0"
 }

@@ -1,9 +1,9 @@
 {
-  "updateTime": "2026-03-17 14:15",
+  "updateTime": "2026-03-26 14:15",
   "stocks": [
     {
-      "code": "605268",
-      "name": "王力安防",
+      "code": "000001.SZ",
+      "name": "平安银行",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -11,8 +11,8 @@
       "catalysts": []
     },
     {
-      "code": "002729",
-      "name": "好利科技",
+      "code": "000002.SZ",
+      "name": "万科Ａ",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -20,8 +20,8 @@
       "catalysts": []
     },
     {
-      "code": "603017",
-      "name": "中衡设计",
+      "code": "000006.SZ",
+      "name": "深振业Ａ",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -29,8 +29,8 @@
       "catalysts": []
     },
     {
-      "code": "002632",
-      "name": "道明光学",
+      "code": "000007.SZ",
+      "name": "全新好",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -38,8 +38,8 @@
       "catalysts": []
     },
     {
-      "code": "002575",
-      "name": "群兴玩具",
+      "code": "000008.SZ",
+      "name": "神州高铁",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -47,8 +47,8 @@
       "catalysts": []
     },
     {
-      "code": "002256",
-      "name": "兆新股份",
+      "code": "000009.SZ",
+      "name": "中国宝安",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -56,8 +56,35 @@
       "catalysts": []
     },
     {
-      "code": "301606",
-      "name": "绿联科技",
+      "code": "000010.SZ",
+      "name": "美丽生态",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "000011.SZ",
+      "name": "深物业A",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "000012.SZ",
+      "name": "南玻Ａ",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "000014.SZ",
+      "name": "沙河股份",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -65,5 +92,5 @@
       "catalysts": []
     }
   ],
-  "count": 7
+  "count": 10
 }
