@@ -1,38 +1,46 @@
 {
-  "date": "2026-03-30",
-  "count": 4,
+  "date": "2026-04-01",
+  "count": 5,
   "stocks": [
     {
-      "code": "301201",
-      "name": "诚达药业",
-      "price": "47.43",
-      "change": "2.35",
-      "volume": "3.45",
-      "reason": "ROE 71.84% | 均线多头 | MACD 金叉 | 放量3.45倍"
+      "code": "600502",
+      "name": "安徽建工",
+      "price": "5.55",
+      "change": "-1.42",
+      "volume": "4.9",
+      "reason": "均线多头 | MACD 金叉 | 放量4.9倍"
     },
     {
-      "code": "603076",
-      "name": "乐惠国际",
-      "price": "28.66",
-      "change": "1.92",
-      "volume": "3.21",
-      "reason": "ROE 36.86% | 均线多头 | MACD 金叉 | 放量3.21倍"
+      "code": "600528",
+      "name": "中铁工业",
+      "price": "8.58",
+      "change": "-6.43",
+      "volume": "3.36",
+      "reason": "ROE 22.34% | 均线多头 | MACD 金叉 | 放量3.36倍"
     },
     {
-      "code": "300453",
-      "name": "三鑫医疗",
-      "price": "9.98",
-      "change": "0.6",
-      "volume": "1.07",
-      "reason": "ROE 34.76% | 均线多头 | MACD 金叉"
+      "code": "002675",
+      "name": "东诚药业",
+      "price": "14.65",
+      "change": "3.46",
+      "volume": "2.73",
+      "reason": "ROE 21.77% | 均线多头 | MACD 金叉"
     },
     {
-      "code": "601858",
-      "name": "中国科传",
-      "price": "23.91",
-      "change": "0.25",
-      "volume": "1.06",
-      "reason": "均线多头 | MACD 强势"
+      "code": "002990",
+      "name": "盛视科技",
+      "price": "30.66",
+      "change": "4.75",
+      "volume": "2.67",
+      "reason": "ROE 27.35% | 均线多头 | MACD 强势"
+    },
+    {
+      "code": "002634",
+      "name": "棒杰股份",
+      "price": "9.17",
+      "change": "2.57",
+      "volume": "2.61",
+      "reason": "均线多头 | MACD 金叉"
     }
   ],
   "version": "V1.0"

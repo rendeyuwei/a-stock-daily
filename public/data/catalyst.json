@@ -1,9 +1,9 @@
 {
-  "updateTime": "2026-03-30 14:15",
+  "updateTime": "2026-04-01 14:15",
   "stocks": [
     {
-      "code": "002479",
-      "name": "富春环保",
+      "code": "301201",
+      "name": "诚达药业",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -11,8 +11,8 @@
       "catalysts": []
     },
     {
-      "code": "603958",
-      "name": "哈森股份",
+      "code": "603076",
+      "name": "乐惠国际",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -20,8 +20,8 @@
       "catalysts": []
     },
     {
-      "code": "001256",
-      "name": "炜冈科技",
+      "code": "300453",
+      "name": "三鑫医疗",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -29,8 +29,8 @@
       "catalysts": []
     },
     {
-      "code": "300035",
-      "name": "中科电气",
+      "code": "601858",
+      "name": "中国科传",
       "score": 0,
       "level": "弱",
       "count": 0,
