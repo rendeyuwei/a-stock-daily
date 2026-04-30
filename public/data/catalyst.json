@@ -1,9 +1,9 @@
 {
-  "updateTime": "2026-04-01 14:15",
+  "updateTime": "2026-04-30 14:15",
   "stocks": [
     {
-      "code": "301201",
-      "name": "诚达药业",
+      "code": "600502",
+      "name": "安徽建工",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -11,8 +11,8 @@
       "catalysts": []
     },
     {
-      "code": "603076",
-      "name": "乐惠国际",
+      "code": "600528",
+      "name": "中铁工业",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -20,8 +20,8 @@
       "catalysts": []
     },
     {
-      "code": "300453",
-      "name": "三鑫医疗",
+      "code": "002675",
+      "name": "东诚药业",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -29,8 +29,17 @@
       "catalysts": []
     },
     {
-      "code": "601858",
-      "name": "中国科传",
+      "code": "002990",
+      "name": "盛视科技",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "002634",
+      "name": "棒杰股份",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -38,5 +47,5 @@
       "catalysts": []
     }
   ],
-  "count": 4
+  "count": 5
 }

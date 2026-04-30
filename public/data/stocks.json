@@ -1,46 +1,86 @@
 {
-  "date": "2026-04-01",
-  "count": 5,
+  "date": "2026-04-30",
+  "count": 10,
   "stocks": [
     {
-      "code": "600502",
-      "name": "安徽建工",
-      "price": "5.55",
-      "change": "-1.42",
-      "volume": "4.9",
-      "reason": "均线多头 | MACD 金叉 | 放量4.9倍"
+      "code": "001266",
+      "name": "宏英智能",
+      "price": "40.59",
+      "change": "2.71",
+      "volume": "9.57",
+      "reason": "ROE 84.82% | 均线多头 | MACD 强势 | 放量9.57倍"
     },
     {
-      "code": "600528",
-      "name": "中铁工业",
-      "price": "8.58",
-      "change": "-6.43",
-      "volume": "3.36",
-      "reason": "ROE 22.34% | 均线多头 | MACD 金叉 | 放量3.36倍"
+      "code": "002111",
+      "name": "威海广泰",
+      "price": "11.02",
+      "change": "4.55",
+      "volume": "6.0",
+      "reason": "ROE 25.43% | 均线多头 | MACD 金叉 | 放量6.0倍"
     },
     {
-      "code": "002675",
-      "name": "东诚药业",
-      "price": "14.65",
-      "change": "3.46",
-      "volume": "2.73",
-      "reason": "ROE 21.77% | 均线多头 | MACD 金叉"
+      "code": "002956",
+      "name": "西麦食品",
+      "price": "33.15",
+      "change": "1.97",
+      "volume": "3.62",
+      "reason": "ROE 23.08% | 均线多头 | MACD 强势 | 放量3.62倍"
     },
     {
-      "code": "002990",
-      "name": "盛视科技",
-      "price": "30.66",
-      "change": "4.75",
-      "volume": "2.67",
-      "reason": "ROE 27.35% | 均线多头 | MACD 强势"
+      "code": "300161",
+      "name": "华中数控",
+      "price": "32.48",
+      "change": "4.91",
+      "volume": "3.41",
+      "reason": "ROE 33.89% | 均线多头 | MACD 金叉 | 放量3.41倍"
     },
     {
-      "code": "002634",
-      "name": "棒杰股份",
-      "price": "9.17",
-      "change": "2.57",
-      "volume": "2.61",
-      "reason": "均线多头 | MACD 金叉"
+      "code": "002125",
+      "name": "湘潭电化",
+      "price": "15.27",
+      "change": "1.66",
+      "volume": "3.32",
+      "reason": "ROE 26.23% | 均线多头 | MACD 金叉 | 放量3.32倍"
+    },
+    {
+      "code": "002832",
+      "name": "比音勒芬",
+      "price": "20.24",
+      "change": "2.9",
+      "volume": "3.3",
+      "reason": "ROE 46.01% | 均线多头 | MACD 强势 | 放量3.3倍"
+    },
+    {
+      "code": "002079",
+      "name": "苏州固锝",
+      "price": "11.7",
+      "change": "0.09",
+      "volume": "2.65",
+      "reason": "ROE 34.24% | 均线多头 | MACD 金叉"
+    },
+    {
+      "code": "002452",
+      "name": "长高电新",
+      "price": "10.96",
+      "change": "0.37",
+      "volume": "1.48",
+      "reason": "ROE 40.54% | 均线多头 | MACD 金叉"
+    },
+    {
+      "code": "603351",
+      "name": "威尔药业",
+      "price": "27.14",
+      "change": "0.41",
+      "volume": "1.25",
+      "reason": "ROE 20.52% | 均线多头 | MACD 金叉"
+    },
+    {
+      "code": "002628",
+      "name": "成都路桥",
+      "price": "5.51",
+      "change": "0.18",
+      "volume": "1.23",
+      "reason": "ROE 26.07% | 均线多头 | MACD 金叉"
     }
   ],
   "version": "V1.0"
