@@ -1,9 +1,9 @@
 {
-  "updateTime": "2026-04-30 14:15",
+  "updateTime": "2026-05-04 14:15",
   "stocks": [
     {
-      "code": "600502",
-      "name": "安徽建工",
+      "code": "001266",
+      "name": "宏英智能",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -11,8 +11,8 @@
       "catalysts": []
     },
     {
-      "code": "600528",
-      "name": "中铁工业",
+      "code": "002111",
+      "name": "威海广泰",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -20,8 +20,8 @@
       "catalysts": []
     },
     {
-      "code": "002675",
-      "name": "东诚药业",
+      "code": "002956",
+      "name": "西麦食品",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -29,8 +29,8 @@
       "catalysts": []
     },
     {
-      "code": "002990",
-      "name": "盛视科技",
+      "code": "300161",
+      "name": "华中数控",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -38,8 +38,53 @@
       "catalysts": []
     },
     {
-      "code": "002634",
-      "name": "棒杰股份",
+      "code": "002125",
+      "name": "湘潭电化",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "002832",
+      "name": "比音勒芬",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "002079",
+      "name": "苏州固锝",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "002452",
+      "name": "长高电新",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "603351",
+      "name": "威尔药业",
+      "score": 0,
+      "level": "弱",
+      "count": 0,
+      "summary": "弱 (0分，0条催化剂)",
+      "catalysts": []
+    },
+    {
+      "code": "002628",
+      "name": "成都路桥",
       "score": 0,
       "level": "弱",
       "count": 0,
@@ -47,5 +92,5 @@
       "catalysts": []
     }
   ],
-  "count": 5
+  "count": 10
 }
