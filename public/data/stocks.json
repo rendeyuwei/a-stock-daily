@@ -1,86 +1,102 @@
 {
-  "date": "2026-05-05",
-  "count": 10,
+  "date": "2026-05-08",
+  "count": 12,
   "stocks": [
     {
-      "code": "001266",
-      "name": "宏英智能",
-      "price": "40.59",
-      "change": "2.71",
-      "volume": "9.57",
-      "reason": "ROE 84.82% | 均线多头 | MACD 强势 | 放量9.57倍"
+      "code": "603598",
+      "name": "引力传媒",
+      "price": "24.9",
+      "change": "3.66",
+      "volume": "4.74",
+      "reason": "ROE 41.16% | 均线多头 | MACD 金叉 | 放量4.74倍"
     },
     {
-      "code": "002111",
-      "name": "威海广泰",
-      "price": "11.02",
-      "change": "4.55",
-      "volume": "6.0",
-      "reason": "ROE 25.43% | 均线多头 | MACD 金叉 | 放量6.0倍"
+      "code": "300807",
+      "name": "天迈科技",
+      "price": "59.46",
+      "change": "-11.54",
+      "volume": "3.81",
+      "reason": "ROE 59.81% | 均线多头 | MACD 强势 | 放量3.81倍"
     },
     {
-      "code": "002956",
-      "name": "西麦食品",
-      "price": "33.15",
-      "change": "1.97",
+      "code": "688298",
+      "name": "东方生物",
+      "price": "25.25",
+      "change": "4.64",
       "volume": "3.62",
-      "reason": "ROE 23.08% | 均线多头 | MACD 强势 | 放量3.62倍"
+      "reason": "ROE 45.76% | 均线多头 | MACD 金叉 | 放量3.62倍"
     },
     {
-      "code": "300161",
-      "name": "华中数控",
-      "price": "32.48",
-      "change": "4.91",
-      "volume": "3.41",
-      "reason": "ROE 33.89% | 均线多头 | MACD 金叉 | 放量3.41倍"
+      "code": "002951",
+      "name": "金时科技",
+      "price": "16.71",
+      "change": "0.12",
+      "volume": "3.38",
+      "reason": "ROE 34.92% | 均线多头 | MACD 金叉 | 放量3.38倍"
     },
     {
-      "code": "002125",
-      "name": "湘潭电化",
-      "price": "15.27",
-      "change": "1.66",
-      "volume": "3.32",
-      "reason": "ROE 26.23% | 均线多头 | MACD 金叉 | 放量3.32倍"
+      "code": "600580",
+      "name": "卧龙电驱",
+      "price": "41.06",
+      "change": "3.87",
+      "volume": "3.05",
+      "reason": "ROE 27.95% | 均线多头 | MACD 金叉 | 放量3.05倍"
     },
     {
-      "code": "002832",
-      "name": "比音勒芬",
-      "price": "20.24",
-      "change": "2.9",
-      "volume": "3.3",
-      "reason": "ROE 46.01% | 均线多头 | MACD 强势 | 放量3.3倍"
+      "code": "300912",
+      "name": "凯龙高科",
+      "price": "31.43",
+      "change": "2.24",
+      "volume": "3.05",
+      "reason": "ROE 27.47% | 均线多头 | MACD 强势 | 放量3.05倍"
     },
     {
-      "code": "002079",
-      "name": "苏州固锝",
-      "price": "11.7",
-      "change": "0.09",
-      "volume": "2.65",
-      "reason": "ROE 34.24% | 均线多头 | MACD 金叉"
+      "code": "002519",
+      "name": "银河电子",
+      "price": "8.84",
+      "change": "4.99",
+      "volume": "3.02",
+      "reason": "ROE 79.44% | 均线多头 | MACD 金叉 | 放量3.02倍"
     },
     {
-      "code": "002452",
-      "name": "长高电新",
-      "price": "10.96",
-      "change": "0.37",
-      "volume": "1.48",
-      "reason": "ROE 40.54% | 均线多头 | MACD 金叉"
+      "code": "603158",
+      "name": "腾龙股份",
+      "price": "15.88",
+      "change": "2.85",
+      "volume": "2.98",
+      "reason": "ROE 34.5% | 均线多头 | MACD 强势"
     },
     {
-      "code": "603351",
-      "name": "威尔药业",
-      "price": "27.14",
-      "change": "0.41",
-      "volume": "1.25",
-      "reason": "ROE 20.52% | 均线多头 | MACD 金叉"
+      "code": "300063",
+      "name": "天龙集团",
+      "price": "13.02",
+      "change": "1.09",
+      "volume": "2.71",
+      "reason": "ROE 28.82% | 均线多头 | MACD 金叉"
     },
     {
-      "code": "002628",
-      "name": "成都路桥",
-      "price": "5.51",
-      "change": "0.18",
-      "volume": "1.23",
-      "reason": "ROE 26.07% | 均线多头 | MACD 金叉"
+      "code": "300354",
+      "name": "东华测试",
+      "price": "39.22",
+      "change": "4.53",
+      "volume": "2.67",
+      "reason": "ROE 27.75% | 均线多头 | MACD 金叉"
+    },
+    {
+      "code": "603120",
+      "name": "肯特催化",
+      "price": "43.16",
+      "change": "3.38",
+      "volume": "2.66",
+      "reason": "ROE 39.28% | 均线多头 | MACD 金叉"
+    },
+    {
+      "code": "300578",
+      "name": "会畅科技",
+      "price": "22.49",
+      "change": "0.81",
+      "volume": "2.62",
+      "reason": "ROE 86.75% | 均线多头 | MACD 金叉"
     }
   ],
   "version": "V1.0"
